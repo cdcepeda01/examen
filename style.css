@@ -1,0 +1,54 @@
+body {
+    margin: 20px;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px; 
+}
+
+#registroContenedor {
+    flex: 0 0 300px;
+    background-color: #e8f5e9;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    color: #ff0000;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#registro{
+    background-color: #fffb00;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+th {
+    background-color: #eb6f1c;
+}
